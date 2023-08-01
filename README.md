@@ -1,8 +1,6 @@
 # JS_Practico_Platzi
 Curso practico de JavaScript - Platzi (Profesor: Juan David Castro)
 
-Curso Practico (Fundamentos) de JS (Platzi - Juan David Castro)
-
 Lo primero que se debe tener en cuenta es que hay varias forma de utilizar JavaScript (FrondEnd - BackEnd), la forma de ejecutar JS es tener un entorno de desarrollo, dichos entornos pueden ser el navegador web, node.js (entorno de ejecución de JS para el BackEnd). 
 
 ¿Como Conectar JavaScript con HTML? 
