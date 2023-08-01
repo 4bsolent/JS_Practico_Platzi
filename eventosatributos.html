@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eventos en JS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <h1 class="text-center">Eventos en JavaScript A Través de Atributos</h1>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="mb-3">
+            <label class="form-label"><b>Valor Uno</b></label>
+            <input type="number" class="form-control" id="valorUno" placeholder="Escribe aquí tu primer valor">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label"><b>Valor Dos</b></label>
+            <input type="number" class="form-control" id="valorDos" placeholder="Escribe aquí tu sengundo valor">
+          </div>
+          <div class="mt-4 text-center">
+            <button type="button" class="btn btn-secondary" id="btnCalcular" onclick="onClick()">Calcular</button>
+          </div>
+
+          <!-- Una de las formas de escuchar eventos es a través de atributos que se pueden incluir en ciertos elementos HTML, por ejemplo el evento onclick en la etiquete <button> -->
+        
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <p id="result"></p>
+      </div>
+
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="./js/eventosenatributos.js"></script>
+
+  </body>
+</html>
